@@ -1,0 +1,137 @@
+:root {
+    /*COLORS*/
+        /*SCUDERIAS*/
+        --var-blue-alpine: #0093CC;
+        --var-blue-racing-bulls: #6692FF;
+        --var-blue-redbull: #3671C6;
+        --var-blue-willians: #64C4FF;
+        --var-gray-haas: #B6BABD;
+        --var-green-aston-martin: #229971;
+        --var-green-kick-sauber: #3DC726;
+        --var-green-mercedes: #27F4D2;
+        --var-orange-mclaren: #FF8000;
+        --var-red-ferrari: #E80020;
+
+        /*OTHERS*/
+        --var-white-ice: #DDD9CE;
+        --var-pure-white: #FAF9F7;
+        --var-black: #000000;
+        --var-gray: #222222;
+
+        /*BACKGROUND*/
+        .bg-blue-alpine {
+            background-color: var(--var-blue-alpine);
+        }
+
+        .bg-blue-racing-bulls {
+            background-color: var(--var-blue-racing-bulls);
+        }
+
+        .bg-blue-redbull {
+            background-color: var(--var-blue-redbull);
+        }
+
+        .bg-blue-willians {
+            background-color: var(--var-blue-willians);
+        }
+
+        .bg-gray-hass {
+            background-color: var(--var-gray-haas);
+        }
+
+        .bg-green-aston-martin {
+            background-color: var(--var-green-aston-martin);
+        }
+
+        .bg-green-kick-sauber {
+            background-color: var(--var-green-kick-sauber);
+        }
+
+        .bg-green-mercedes {
+            background-color: var(--var-green-mercedes);
+        }
+
+        .bg-orange-mclaren {
+            background-color: var(--var-orange-mclaren);
+        }
+
+        .bg-red-ferrari {
+            background-color: var(--var-red-ferrari);
+        }
+
+    /*FONTS*/
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+    }
+
+
+    
+}
