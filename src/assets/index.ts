@@ -14,6 +14,8 @@ import icon1 from './icons/cronometro.svg';
 import icon2 from './icons/logo.svg';
 import icon3 from './icons/taca.svg';
 import icon4 from './icons/texto.svg';
+import icon5 from './icons/ArrowRight.svg';
+import icon6 from './icons/ArrowLeft.svg';
 
 import image0 from './images/carro-chuva.svg';
 import image1 from './images/carro-f1.svg';
@@ -56,6 +58,8 @@ export const vetorIcons = [
     icon2,
     icon3,
     icon4,
+    icon5,
+    icon6,
 ]
 
 export const vetorImages = [

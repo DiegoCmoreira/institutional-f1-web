@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(#000000, #222222, #000000);
+}
+
+.logo-inicial {
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+.texto {
+    width: 32.1%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 10%;
+}
+
+.texto h1 {
+    width: 100%;
+    font-size: 40px;
+    text-align: justify;
+    color: white;
+}
+
+.moldura {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
+
+.moldura img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.btn-inicio{
+    transition: 0.8s;
+    background-color: #dadada;
+    top: 74%;
+    left: 85%;
+}
+
+.btn-inicio:hover{
+    transition: 0.5s;
+    background-color: #ffffff;
+}
+

@@ -3,6 +3,9 @@ import { BrowserRouter } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { Teams } from "../pages/Teams";
 
+import "../../css/geral.css"
+import "../../css/Home.css"
+
 export const Routes = () => {
     return (
         <BrowserRouter>
