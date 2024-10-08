@@ -1,13 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-li{
-    list-style: none !important
-}
-
 :root {
     /*COLORS*/
         /*SCUDERIAS*/
@@ -140,6 +130,25 @@ li{
         font-family: "Roboto", sans-serif;
         font-weight: 900;
         font-style: italic;
+    }
+
+    /*STYLES*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    li{
+        list-style: none !important
     }
 
     .btn{

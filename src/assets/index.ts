@@ -16,16 +16,13 @@ import icon3 from './icons/taca.svg';
 import icon4 from './icons/texto.svg';
 import icon5 from './icons/ArrowRight.svg';
 import icon6 from './icons/ArrowLeft.svg';
+import icon7 from './icons/logo-teams.svg';
 
 import image0 from './images/carro-chuva.svg';
 import image1 from './images/carro-f1.svg';
 import image2 from './images/carro-na-pista.svg';
 import image3 from './images/carro-vermelho.svg';
 import image4 from './images/corrida-na-chuva.svg';
-import image5 from './images/dois-carros-dois.svg';
-import image6 from './images/dois-carros.svg';
-import image7 from './images/pilot- na-chuva.svg';
-import image8 from './images/piloto-olhando-carro.svg';
 
 import scuderia0 from './scuderias/Apline.svg';
 import scuderia1 from './scuderias/Aston Martim.svg';
@@ -60,6 +57,7 @@ export const vetorIcons = [
     icon4,
     icon5,
     icon6,
+    icon7,
 ]
 
 export const vetorImages = [
@@ -68,10 +66,6 @@ export const vetorImages = [
     image2,
     image3,
     image4,
-    image5,
-    image6,
-    image7,
-    image8,
 ]
 
 export const vetorScuderias = [

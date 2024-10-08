@@ -1,0 +1,25 @@
+.teams{
+    background: linear-gradient(#DDD9CE, #FAF9F7, #DDD9CE);
+}
+
+.teams .background-logo{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.teams .background-logo img{
+    width: 100%;
+}
+
+.btn-teams{
+    transition: 0.8s;
+    top: 4%;
+    left: 5%;
+}
+
+.btn-teams:hover{
+    transition: 0.5s;
+}
