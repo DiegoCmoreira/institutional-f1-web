@@ -6,8 +6,6 @@ import { Teams } from "../pages/Teams";
 import "../../css/geral.css"
 import "../../css/Home.css"
 import "../../css/Teams.css"
-import "../../css/CardInfo.css"
-import "../../css/Menu.css"
 
 export const Routes = () => {
     return (
