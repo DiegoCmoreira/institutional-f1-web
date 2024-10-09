@@ -16,7 +16,6 @@ import icon3 from './icons/taca.svg';
 import icon4 from './icons/texto.svg';
 import icon5 from './icons/ArrowRight.svg';
 import icon6 from './icons/ArrowLeft.svg';
-import icon7 from './icons/logo-teams.svg';
 
 import image0 from './images/carro-chuva.svg';
 import image1 from './images/carro-f1.svg';
@@ -34,6 +33,17 @@ import scuderia6 from './scuderias/Mercedes.svg';
 import scuderia7 from './scuderias/Racing Bulls.svg';
 import scuderia8 from './scuderias/Red Bull.svg';
 import scuderia9 from './scuderias/Willians.svg';
+
+import background0 from './background/F1-Alpine.svg';
+import background1 from './background/F1-AstonMartim.svg';
+import background2 from './background/F1-Ferrari.svg';
+import background3 from './background/F1-Haas.svg';
+import background4 from './background/F1-KickSauber.svg';
+import background5 from './background/F1-McLarem.svg';
+import background6 from './background/F1-Mercedes.svg';
+import background7 from './background/F1-RacingBulls.svg';
+import background8 from './background/F1-RedBull.svg';
+import background9 from './background/F1-Willians.svg';
 
 
 export const vetorCars = [
@@ -57,7 +67,6 @@ export const vetorIcons = [
     icon4,
     icon5,
     icon6,
-    icon7,
 ]
 
 export const vetorImages = [
@@ -79,4 +88,17 @@ export const vetorScuderias = [
     scuderia7,
     scuderia8,
     scuderia9,
+]
+
+export const vetorBackground = [
+    background0,
+    background1,
+    background2,
+    background3,
+    background4,
+    background5,
+    background6,
+    background7,
+    background8,
+    background9,
 ]
