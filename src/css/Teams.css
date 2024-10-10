@@ -1,8 +1,8 @@
-.teams{
+.teams {
     background: linear-gradient(#DDD9CE, #FAF9F7, #DDD9CE);
 }
 
-.teams .background-logo{
+.teams .background-logo {
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -10,16 +10,41 @@
     align-items: center;
 }
 
-.teams .background-logo img{
+.teams .background-logo img {
     width: 100%;
+    transition: opacity 0.8s ease; 
+    position: absolute;
+    opacity: 0; 
 }
 
-.btn-teams{
+.teams .background-logo img.show {
+    opacity: 1; 
+}
+
+.btn-teams {
     transition: 0.8s;
     top: 4%;
     left: 5%;
 }
 
-.btn-teams:hover{
+.btn-teams:hover {
     transition: 0.5s;
+}
+
+.teams .car-box {
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 16%;
+}
+
+.car-box .car img {
+    width: 100%;
+    transition: opacity 0.6s ease; 
+    position: absolute; 
+    opacity: 0; 
+}
+
+.car-box .car img.show {
+    opacity: 1; 
 }

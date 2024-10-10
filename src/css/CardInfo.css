@@ -1,0 +1,95 @@
+.card-box{
+    width: 26%;
+    height: 88vh;
+    position: absolute;
+    top: 4.2%;
+    left: 66%;
+}
+
+.card{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8%;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card .header{
+    width: auto;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card .header img{
+    width: 15%;
+}
+
+.card .content{
+    width: auto;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content .column.info{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .footer{
+    width: auto;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.column{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column p{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.footer .column.title{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .column.data{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .column.img{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .column.img img{
+    width: 90%;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--var-yellow);
+    margin: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}

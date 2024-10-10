@@ -1,5 +1,5 @@
 import { vetorIcons, vetorScuderias } from "../../../assets";
-import "../../../css/geral.css"
+import "../../../css/CardInfo.css"
 
 interface CardInfoProps {
     id: number;
