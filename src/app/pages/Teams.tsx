@@ -22,7 +22,7 @@ export const Teams = () => {
         setIdMenu(index);
     };
 
-    /*
+    /* CODE TO GET API DATA
     useEffect(() => {
         TeamsService.getById(idMenu + 1)
             .then((result) => {
