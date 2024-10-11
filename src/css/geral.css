@@ -1,71 +1,71 @@
 :root {
     /*COLORS*/
-        /*SCUDERIAS*/
-        --var-blue-alpine: #0093CC;
-        --var-blue-racing-bulls: #6692FF;
-        --var-blue-redbull: #3671C6;
-        --var-blue-willians: #64C4FF;
-        --var-gray-haas: #B6BABD;
-        --var-green-aston-martin: #229971;
-        --var-green-kick-sauber: #3DC726;
-        --var-green-mercedes: #27F4D2;
-        --var-orange-mclaren: #FF8000;
-        --var-red-ferrari: #E80020;
+    /*SCUDERIAS*/
+    --var-blue-alpine: #0093CC;
+    --var-blue-racing-bulls: #6692FF;
+    --var-blue-redbull: #3671C6;
+    --var-blue-willians: #64C4FF;
+    --var-gray-haas: #B6BABD;
+    --var-green-aston-martin: #229971;
+    --var-green-kick-sauber: #3DC726;
+    --var-green-mercedes: #27F4D2;
+    --var-orange-mclaren: #FF8000;
+    --var-red-ferrari: #E80020;
 
-        /*OTHERS*/
-        --var-white-ice: #DDD9CE;
-        --var-pure-white: #FAF9F7;
-        --var-black: #000000;
-        --var-gray: #222222;
-        --var-white-gray: #E4E8EA;
-        --var-yellow: #FFD700;
+    /*OTHERS*/
+    --var-white-ice: #DDD9CE;
+    --var-pure-white: #FAF9F7;
+    --var-black: #000000;
+    --var-gray: #222222;
+    --var-white-gray: #E4E8EA;
+    --var-yellow: #FFD700;
 
-        /*BACKGROUND*/
-        .bg-0{
-            background-color: var(--var-blue-alpine);
-        }
+    /*BACKGROUND*/
+    .bg-0 {
+        background-color: var(--var-blue-alpine);
+    }
 
-        .bg-1{
-            background-color: var(--var-green-aston-martin);
-        }
+    .bg-1 {
+        background-color: var(--var-green-aston-martin);
+    }
 
-        .bg-2{
-            background-color: var(--var-red-ferrari);
-        }
+    .bg-2 {
+        background-color: var(--var-red-ferrari);
+    }
 
-        .bg-3{
-            background-color: var(--var-gray-haas);
-        }
+    .bg-3 {
+        background-color: var(--var-gray-haas);
+    }
 
-        .bg-4{
-            background-color: var(--var-green-kick-sauber);
-        }
+    .bg-4 {
+        background-color: var(--var-green-kick-sauber);
+    }
 
-        .bg-5{
-            background-color: var(--var-orange-mclaren);
-        }
+    .bg-5 {
+        background-color: var(--var-orange-mclaren);
+    }
 
-        .bg-6{
-            background-color: var(--var-green-mercedes);
-        }
+    .bg-6 {
+        background-color: var(--var-green-mercedes);
+    }
 
-        .bg-7{
-            background-color: var(--var-blue-racing-bulls);
-        }
+    .bg-7 {
+        background-color: var(--var-blue-racing-bulls);
+    }
 
-        .bg-8{
-            background-color: var(--var-blue-redbull);
-        }
+    .bg-8 {
+        background-color: var(--var-blue-redbull);
+    }
 
-        .bg-9{
-            background-color: var(--var-blue-willians);
-        }
-        
-        .bg-white-gray{
-            background-color: var(--var-white-gray);
-        }
-        
-        /*FONTS*/
+    .bg-9 {
+        background-color: var(--var-blue-willians);
+    }
+
+    .bg-white-gray {
+        background-color: var(--var-white-gray);
+    }
+
+    /*FONTS*/
     .roboto-thin {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
@@ -145,19 +145,19 @@
         padding: 0;
         text-decoration: none;
     }
-    
+
     .container {
         width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: row;
     }
-    
-    li{
+
+    li {
         list-style: none !important
     }
 
-    .btn{
+    .btn {
         width: 5%;
         height: 11vh;
         border: none;
@@ -167,7 +167,163 @@
         cursor: pointer;
     }
 
-    .btn:hover{
+    .btn:hover {
         opacity: 80%;
     }
+
+    @media only screen and (max-width: 768px) {
+    
+        .btn-teams {
+            position: absolute;
+            top: 3%;
+            left: 5%;
+            width: 10%;
+            height: 5vh;
+            z-index: 5;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .btn-teams img {
+            width: 70%;
+            height: auto;
+            border-radius: 50%;
+        }
+    
+        .roboto-medium {
+            font-size: 14px;
+        }
+    
+        .roboto-bold {
+            font-size: 15px;
+        }
+    
+        .card-box {
+            width: 85%;
+            height: 75vh;
+            position: absolute;
+            top: 8%;
+            left: 1.5%;
+            opacity: 0.85;
+            z-index: 3;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    
+        .card {
+            height: 70vh;
+        }
+    
+        .card .header{
+            height: 10vh;
+        }
+    
+        .card .header h3 {
+            font-size: 15px;
+        }
+    
+        .card .content{
+            margin-top: 1%;
+            height: 25vh;
+        }
+    
+        .card .content .info {
+            width: 44%;
+            height: 20vh;
+            font-size: 14px;
+        }
+    
+        .card .footer{
+            height: 20vh;
+            margin-top: 24%;
+            margin-bottom: 3%;
+        }
+    
+        .footer .column{
+            display: flex;
+            justify-content: center;
+        }
+    
+        .footer .column.title {
+            width: auto;
+            height: 20vh;
+            font-size: 14px;
+        }
+        .footer .column.data {
+            width: auto;
+            height: 20vh;
+            font-size: 14px;
+        }
+        .footer .column.img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .footer .column.img img {
+            width: 70%;
+        }
+    
+        .line {
+            margin: 0;
+        }
+    
+        .line.none {
+            display: none;
+        }
+    
+        .teams .car-box {
+            width: 70%;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 4;
+        }
+    
+        .teams .car-box .car img {
+            width: 100%;
+        }
+    
+        .menu-box {
+            width: 100%;
+            position: absolute;
+            top: 87%;
+            left: 0;
+            display: flex;
+            z-index: 4;
+        }
+    
+        .menu-box img {
+            width: 60%;
+        }
+    
+        .logo-home {
+            z-index: 1;
+        }
+    
+        .card-box {
+            z-index: 3;
+        }
+    
+        .car-box {
+            z-index: 4;
+        }
+    
+        .menu-box {
+            z-index: 5;
+        }
+    
+        .btn-teams {
+            z-index: 6;
+        }
+        
+    }
+    
 }

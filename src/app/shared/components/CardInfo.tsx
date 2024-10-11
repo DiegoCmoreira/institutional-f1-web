@@ -57,7 +57,7 @@ export const CardInfo: React.FC<CardInfoProps> = (props) => {
                             </div>
                         </div>
                     </div>
-                    <span className={`line bg-${props.bgLine}`}></span>
+                    <span className={`line none bg-${props.bgLine}`}></span>
                     <div className="footer">
                         <div className="column title">
                             <p className="roboto-bold">Fastest Laps</p>
