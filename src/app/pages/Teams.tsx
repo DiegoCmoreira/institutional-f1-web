@@ -6,6 +6,7 @@ import { Menu } from "../shared/components/Menu";
 import { CardInfo } from "../shared/components/CardInfo";
 import { ITeams, TeamsService } from "../shared/service/api/TeamsService";
 import { ApiException } from "../shared/service/ApiException";
+import { TeamsApi } from "../shared/service/api/TeamsApi";
 
 export const Teams = () => {
     const navigate = useNavigate();
@@ -21,6 +22,7 @@ export const Teams = () => {
         setIdMenu(index);
     };
 
+    /*
     useEffect(() => {
         TeamsService.getById(idMenu + 1)
             .then((result) => {
@@ -32,6 +34,16 @@ export const Teams = () => {
                 }
             })
     }, [idMenu])
+    */
+
+    useEffect(() => {
+        const selectedTeam = TeamsApi.find(item => item.id === idMenu);
+        if (selectedTeam) {
+            setTeam(selectedTeam);
+        }
+    }, [idMenu]);
+
+
 
     return (
         <>
