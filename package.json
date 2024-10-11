@@ -2,6 +2,7 @@
   "name": "site-institucional",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://DiegoCmoreira.github.io/institutional-f1-web",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -20,6 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "json-server": "json-server -w -p 3333 ./mock/database.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +47,7 @@
   },
   "devDependencies": {
     "@types/axios": "^0.9.36",
+    "gh-pages": "^6.2.0",
     "json-server": "^1.0.0-beta.3"
   }
 }
