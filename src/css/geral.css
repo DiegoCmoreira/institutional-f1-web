@@ -171,14 +171,49 @@
         opacity: 80%;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 800px) {
+
+        .logo-home {
+            width: 20%;
+            height: 4vh;
+            top: 4%;
+        }
+    
+        .texto {
+            width: 71%;
+            top: 35%;
+            left: 15%;
+        }
+    
+        .texto h1 {
+            font-size: 18px;
+            text-align: justify;
+        }
+    
+        .moldura {
+            top: 45%;
+            left: 10%;
+            width: 80%;
+        }
+    
+        .btn-home {
+            left: 70%;
+            width: 14%;
+            height: 7vh;
+        }
+
+        .btn-home img {
+            width: 55%;
+            height: auto;
+            border-radius: 50%;
+        }
     
         .btn-teams {
             position: absolute;
             top: 3%;
             left: 5%;
-            width: 10%;
-            height: 5vh;
+            width: 14%;
+            height: 7vh;
             z-index: 5;
             border-radius: 50%;
             display: flex;
@@ -187,7 +222,7 @@
         }
     
         .btn-teams img {
-            width: 70%;
+            width: 55%;
             height: auto;
             border-radius: 50%;
         }
@@ -202,9 +237,9 @@
     
         .card-box {
             width: 85%;
-            height: 75vh;
+            height: 72vh;
             position: absolute;
-            top: 8%;
+            top: 10%;
             left: 1.5%;
             opacity: 0.85;
             z-index: 3;
@@ -217,11 +252,11 @@
         }
     
         .card {
-            height: 70vh;
+            height: 68vh;
         }
     
         .card .header{
-            height: 10vh;
+            height: 8vh;
         }
     
         .card .header h3 {
@@ -294,7 +329,7 @@
         .menu-box {
             width: 100%;
             position: absolute;
-            top: 87%;
+            top: 90%;
             left: 0;
             display: flex;
             z-index: 4;
