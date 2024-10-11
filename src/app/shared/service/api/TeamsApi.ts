@@ -1,22 +1,4 @@
-export interface ITeams {
-    id: number,
-    name: string,
-    raceData: {
-        fastestLaps: number,
-        worldChamp: number,
-        poles: number
-    },
-    carInfo: {
-        powerUnit: string,
-        chassis: string
-    },
-    teamInfo: {
-        base: string,
-        teamChief: string,
-        technicalChief: string,
-        firstEntry: number
-    }
-}
+import { ITeams } from "./TeamsService";
 
 export const TeamsApi: ITeams[] = [
     {
