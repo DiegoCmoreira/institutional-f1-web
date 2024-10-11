@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/institutional-f1-web/static/css/main.d2740e70.css",
-    "main.js": "/institutional-f1-web/static/js/main.523a2b93.js",
+    "main.js": "/institutional-f1-web/static/js/main.a4744e72.js",
     "static/js/453.73ac6b7d.chunk.js": "/institutional-f1-web/static/js/453.73ac6b7d.chunk.js",
     "static/media/carro-chuva.svg": "/institutional-f1-web/static/media/carro-chuva.840db8c014f84b9ae8fe5378d6d172a7.svg",
     "static/media/corrida-na-chuva.svg": "/institutional-f1-web/static/media/corrida-na-chuva.e681953587e42646cb36cb5ba2fbcc9d.svg",
@@ -40,11 +40,11 @@
     "static/media/ArrowRight.svg": "/institutional-f1-web/static/media/ArrowRight.3181d496ce88f16d537e4a34f74b3a58.svg",
     "static/media/ArrowLeft.svg": "/institutional-f1-web/static/media/ArrowLeft.0708dbc7098acea75e34086c2756f958.svg",
     "main.d2740e70.css.map": "/institutional-f1-web/static/css/main.d2740e70.css.map",
-    "main.523a2b93.js.map": "/institutional-f1-web/static/js/main.523a2b93.js.map",
+    "main.a4744e72.js.map": "/institutional-f1-web/static/js/main.a4744e72.js.map",
     "453.73ac6b7d.chunk.js.map": "/institutional-f1-web/static/js/453.73ac6b7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2740e70.css",
-    "static/js/main.523a2b93.js"
+    "static/js/main.a4744e72.js"
   ]
 }
