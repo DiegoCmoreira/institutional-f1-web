@@ -37,7 +37,7 @@ export const Teams = () => {
     */
 
     useEffect(() => {
-        const selectedTeam = TeamsApi.find(item => item.id === idMenu);
+        const selectedTeam = TeamsApi.find(item => item.id === (idMenu + 1));
         if (selectedTeam) {
             setTeam(selectedTeam);
         }
