@@ -17,7 +17,7 @@
 }
 
 .card .header{
-    width: auto;
+    width: 100%;
     height: 12vh;
     display: flex;
     flex-direction: row;
@@ -25,13 +25,18 @@
     align-items: center;
 }
 
+.card .header h3{
+    text-align: center;
+}
+
 .card .header img{
     width: 15%;
+    padding: 2%;
 }
 
 .card .content{
-    width: auto;
-    height: 30vh;
+    width: 100%;
+    height: 32vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -39,9 +44,17 @@
 }
 
 .content .column.info{
+    width: 40%;
     height: 30vh;
     display: flex;
     justify-content: space-around;
+}
+
+.content .column.info div{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card .footer{
@@ -54,7 +67,6 @@
 }
 
 .column{
-    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,6 +86,7 @@
     height: 30vh;
     display: flex;
     justify-content: space-around;
+    align-items: end;
 }
 
 .footer .column.img{
@@ -89,7 +102,12 @@
 .line {
     width: 100%;
     height: 3px;
-    background-color: var(--var-yellow);
     margin: 10px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.card-box .roboto-medium, .roboto-black {
+    word-wrap: break-word; /* Quebra o texto que é grande demais */
+    word-break: break-word; /* Quebra palavras longas se necessário */
+    white-space: normal;    /* Permite que o texto quebre em várias linhas */
 }

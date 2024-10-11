@@ -13,6 +13,7 @@ interface CardInfoProps {
     fastestLaps: number;
     poles: number;
     worldChamp: number;
+    bgLine: number;
 }
 
 export const CardInfo: React.FC<CardInfoProps> = (props) => {
@@ -22,10 +23,10 @@ export const CardInfo: React.FC<CardInfoProps> = (props) => {
                 <div className="card bg-white-gray">
                     <div className="header">
                         <img src={vetorScuderias[props.id]} alt="" />
-                        <h2 className="roboto-black">{props.title}</h2>
+                        <h3 className="roboto-black">{props.title}</h3>
                         <img src={vetorScuderias[props.id]} alt="" />
                     </div>
-                    <span className="line"></span>
+                    <span className={`line bg-${props.bgLine}`}></span>
                     <div className="content">
                         <div className="column info">
                             <div>
@@ -56,7 +57,7 @@ export const CardInfo: React.FC<CardInfoProps> = (props) => {
                             </div>
                         </div>
                     </div>
-                    <span className="line"></span>
+                    <span className={`line bg-${props.bgLine}`}></span>
                     <div className="footer">
                         <div className="column title">
                             <p className="roboto-bold">Fastest Laps</p>
@@ -74,7 +75,7 @@ export const CardInfo: React.FC<CardInfoProps> = (props) => {
                             <img src={vetorIcons[3]} alt="" />
                         </div>
                     </div>
-                    <span className="line"></span>
+                    <span className={`line bg-${props.bgLine}`}></span>
                 </div>
             </div>
         </>

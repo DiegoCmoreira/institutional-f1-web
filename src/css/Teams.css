@@ -12,7 +12,7 @@
 
 .teams .background-logo img {
     width: 100%;
-    transition: opacity 0.8s ease; 
+    transition: opacity 0.7s ease; 
     position: absolute;
     opacity: 0; 
 }
@@ -35,12 +35,12 @@
     width: 40%;
     position: absolute;
     top: 35%;
-    left: 16%;
+    left: 15%;
 }
 
 .car-box .car img {
     width: 100%;
-    transition: opacity 0.6s ease; 
+    transition: opacity 0.7s ease; 
     position: absolute; 
     opacity: 0; 
 }
@@ -48,3 +48,4 @@
 .car-box .car img.show {
     opacity: 1; 
 }
+
